@@ -1,0 +1,28 @@
+@import "../../styles/variables.scss";
+
+$radius: 0.5rem;
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid $bd-blur;
+  border-radius: $radius;
+  overflow: hidden;
+}
+
+.picker {
+  @include text-base;
+  padding: 0.25rem;
+  width: 6rem;
+  text-align: center;
+  border: none;
+  outline: none;
+  border-radius: $radius;
+  background-color: transparent;
+  color: inherit;
+  font-weight: inherit;
+  &:hover {
+    background-color: $bg-lightgray;
+  }
+}

@@ -1,0 +1,10 @@
+$bd-blur: rgb(80, 150, 218);
+$bg-lightgray: rgb(241, 241, 241);
+
+$fs-base: 1rem;
+$lh-base: 1.5rem;
+
+@mixin text-base {
+  font-size: $fs-base;
+  line-height: $lh-base;
+}
